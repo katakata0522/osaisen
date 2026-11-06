@@ -1,0 +1,6 @@
+{
+  "name": "お賽銭シュート！ 3D ～ご利益マシマシ参拝道～",
+  "description": "放物線の角度と強さを調整してお賽銭箱へ五円玉を投げ入れる、懐かしのフラッシュゲーム風ギミック満載の3Dお賽銭アクションパズルゲーム。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

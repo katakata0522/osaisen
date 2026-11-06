@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: 'Kaisei Decol', Georgia, serif;
+    --font-body: 'M PLUS Rounded 1c', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  body {
+    font-family: var(--font-body);
+    background-color: #1c120c;
+    color: #fff8ec;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    user-select: none;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: var(--font-display);
+    text-wrap: balance;
+  }
+
+  .font-mono-num {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+.hud-text-stroke {
+  paint-order: stroke fill;
+  -webkit-text-stroke: 4px #2a1508;
+  text-shadow: 0 2px 0 #2a1508;
+}
+
+.hud-title-stroke {
+  paint-order: stroke fill;
+  -webkit-text-stroke: 6px #3b1706;
+  text-shadow: 0 4px 0 #1f0a02;
+}
